@@ -10,17 +10,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-        <link rel="shortcut icon" type="image/x-icon" href="Multimedia/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="Multimedia/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="Multimedia/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="Multimedia/favicon-16x16.png" />
-        <link rel="manifest" href="site.webmanifest" />
 
-        <title>The Automated Sickle Cooperative - Home</title>
+    <link rel="stylesheet" href="Styles/MainCustom.css" />
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="Multimedia/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="Multimedia/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="Multimedia/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="Multimedia/favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+
+    <title>The Automated Sickle Cooperative - Home</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="https://the-automated-sickle-cooperative.github.io/">
                 The Automated Sickle Cooperative</a>
@@ -36,21 +40,146 @@
                         <a href="https://the-automated-sickle-cooperative.github.io/" class="nav-link">Home</a>
                     </div>
                     <div class="pe-2 nav-item">
-                        <a href="https://the-automated-sickle-cooperative.github.io/Projects/" class="nav-link">Projects</a>
+                        <a href="https://the-automated-sickle-cooperative.github.io/Projects/"
+                            class="nav-link">Projects</a>
                     </div>
                     <div class="pe-2 nav-item">
-                        <a href="https://the-automated-sickle-cooperative.github.io/DevLog/" class="nav-link">Developent Log</a>
+                        <a href="https://the-automated-sickle-cooperative.github.io/DevLog/" class="nav-link">Developent
+                            Log</a>
                     </div>
                     <div class="pe-2 nav-item">
                         <a href="https://the-automated-sickle-cooperative.github.io/Bases/" class="nav-link">Bases</a>
                     </div>
                     <div class="nav-item">
-                        <a href="https://the-automated-sickle-cooperative.github.io/ContactUs/" class="nav-link">Contact Us</a>
+                        <a href="https://the-automated-sickle-cooperative.github.io/ContactUs/" class="nav-link">Contact
+                            Us</a>
                     </div>
                 </form>
             </div>
         </div>
     </nav>
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <div class="container">
+                    <img src="Multimedia/LogoFinal_Large.png" class="d-block img-fluid" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <div class="container">
+                    <img src="Multimedia/LogoFinal_Large.png" class="d-block img-fluid" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <img src="Multimedia/LogoFinal_Large.png" class="d-block img-fluid" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <div class="conainer m-5">
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <a href="https://the-automated-sickle-cooperative.github.io/Projects/" class="custom-card">
+                    <div class="card-img-wrap">
+                        <div class="card">
+                            <img src="https://mdbootstrap.com/img/new/slides/017.jpg" class="card-img" alt="..." />
+                            <div class="text-white">
+                                <div class="card-img-overlay h-100 d-flex flex-column">
+                                    <h2
+                                        class="intro-cards card-title position-absolute top-50 start-50 translate-middle">
+                                        Projects</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="https://the-automated-sickle-cooperative.github.io/DevLog/" class="custom-card">
+                    <div class="card-img-wrap">
+                        <div class="card">
+                            <img src="https://mdbootstrap.com/img/new/slides/017.jpg" class="card-img" alt="..." />
+                            <div class="text-white">
+                                <div class="card-img-overlay h-100 d-flex flex-column">
+
+                                    <h2 class="card-title position-absolute top-50 start-50 translate-middle">
+                                        Development Vlog</h2>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="https://the-automated-sickle-cooperative.github.io/Bases/" class="custom-card">
+                    <div class="card-img-wrap">
+                        <div class="card">
+                            <img src="https://mdbootstrap.com/img/new/slides/017.jpg" class="card-img" alt="..." />
+                            <div class="text-white">
+                                <div class="card-img-overlay h-100 d-flex flex-column">
+                                    <h2 class="card-title position-absolute top-50 start-50 translate-middle">Bases</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="https://the-automated-sickle-cooperative.github.io/ContactUs/" class="custom-card">
+                    <div class="card-img-wrap">
+                        <div class="card">
+                            <img src="https://mdbootstrap.com/img/new/slides/017.jpg" class="card-img" alt="..." />
+                            <div class="text-white">
+                                <div class="card-img-overlay h-100 d-flex flex-column">
+                                    <h2 class="card-title position-absolute top-50 start-50 translate-middle">Contact Us
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
 
     <img src="Multimedia/LogoFinal_Large.png" class="img-fluid mx-auto d-block" alt="Logo">
 
@@ -68,4 +197,5 @@
         crossorigin="anonymous"></script>
 
 </body>
+
 </html>
